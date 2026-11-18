@@ -1,0 +1,22 @@
+Model,Dataset,MAE,RMSE,R2 Score
+Linear Regression,Train,827.7382,1067.9504,0.7118
+Linear Regression,Validation,830.28,1066.2386,0.7058
+Linear Regression,Test,831.5731,1059.3363,0.7136
+Random Forest,Train,266.1027,413.3545,0.9568
+Random Forest,Validation,256.1765,412.6756,0.9559
+Random Forest,Test,240.548,388.1396,0.9615
+Decision Tree,Train,169.7878,278.6076,0.9804
+Decision Tree,Validation,289.2203,491.4893,0.9375
+Decision Tree,Test,273.6606,480.4033,0.9411
+KNN,Train,308.7865,460.5417,0.9464
+KNN,Validation,399.5058,592.4236,0.9092
+KNN,Test,390.2469,589.0702,0.9114
+SVR,Train,378.0306,533.9567,0.9279
+SVR,Validation,391.606,547.1882,0.9225
+SVR,Test,381.8844,529.1086,0.9285
+AdaBoost,Train,548.0117,704.2124,0.8747
+AdaBoost,Validation,550.0659,703.3447,0.872
+AdaBoost,Test,542.4852,695.3722,0.8766
+Time-aware Stacking,Train (OOF),291.5526,470.7575,0.9433
+Time-aware Stacking,Validation,269.199,423.4885,0.9536
+Time-aware Stacking,Test,243.8224,386.5766,0.9619
